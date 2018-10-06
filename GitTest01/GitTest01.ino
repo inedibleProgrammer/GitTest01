@@ -13,7 +13,8 @@ void loop()
 {
     if(!ledOn)
     {
-        Serial.println("Hello World!");
+        Serial.println("This is a first message ");
+        Serial.println("This is a second message");
         ledOn = true;
     }
 }
